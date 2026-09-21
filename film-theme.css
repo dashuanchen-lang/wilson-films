@@ -1,0 +1,19 @@
+/* A full-width light band separates advertising from the dark film sections. */
+.films-section .selling-section{
+ background:var(--paper);
+ color:var(--ink);
+ box-shadow:0 0 0 100vmax var(--paper);
+ clip-path:inset(0 -100vmax);
+ border-top:0;
+ padding:44px 0;
+}
+.selling-section .eyebrow{color:#647269}
+.selling-section .selling-heading>p,
+.selling-section .selling-editorial>p:not(.eyebrow),
+.selling-section .selling-note{color:#59675f}
+.selling-section .selling-case-link{border-color:#c6ceca}
+.selling-section .edge-scroll-hint{color:#59675f}
+.selling-section .edge-controls button{color:#263b30}
+.selling-section .edge-controls button svg{filter:none}
+.selling-section .edge-controls button:focus-visible{outline-color:#263b30}
+@media(max-width:760px){.films-section .selling-section{padding:32px 0}}
